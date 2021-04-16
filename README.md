@@ -1,4 +1,4 @@
-# qupg
+# QuickUpGames
 test
 
 #testing
@@ -7,7 +7,7 @@ test
 
 *acc*
 
-**acuracy**
+**accuracy**
 
 aaaaaa
 

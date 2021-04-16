@@ -11,4 +11,4 @@ test
 
 aaaaaa
 
-[test](https://google.com)
+[test](https://qupg.tk/site/content/)

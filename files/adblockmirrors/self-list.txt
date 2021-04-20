@@ -1,15 +1,14 @@
-! Billboard paywall block
+! remove billboard paywall
 ||tinypass.com^$domain=billboard.com
-! IGN anti-adblock block
+! ign anti-adblock block
 ||gstatic.com/*/boq-content-ads-contributor^$domain=ign.com
 ||fundingchoicesmessages.google.com^$domain=ign.com
-! Recipe save whitelist
+! recipe save whitelist
 eatingwell.com,allrecipes.com,myrecipes.com#@#[data-tracking-zone="share"]
 eatingwell.com,allrecipes.com,myrecipes.com#@#.two-col-social
 eatingwell.com,allrecipes.com,myrecipes.com#@#.share-new
 eatingwell.com,allrecipes.com,myrecipes.com#@#.docked-sharebar-docking-container
 eatingwell.com,allrecipes.com,myrecipes.com#@#.docked-sharebar
-
 ! Filters migrated from 'Right click > Brave > Block element via selector'
 www.webmd.com##div#top-picks-mod-3
 www.webmd.com###ed-urr
@@ -23,3 +22,75 @@ www.webmd.com##.module-f-hs
 www.webmd.com##.module-f-idc
 www.zdnet.com##section#content-recommendation.leadgenads
 www.zdnet.com###uid-1957366834 > .module
+! remove mp4upload ads
+||gibeleftyeuro.com^
+! remove streamtape ads
+||adsco.re^
+||achaithe.com^
+||mc.yandex.ru^
+||onergong.com^
+||roujaufu.net^
+||inpagepush.com^$important
+||in-page-push.com^$important
+*$popup,domain=streamtape.com|streamtape.net
+||*$script,third-party,domain=streamtape.com|streamtape.net
+streamtape.*##+js(abort-current-inline-script, document.createElement, 'script')
+streamtape.*##+js(abort-current-inline-script, Math, XMLHttpRequest)
+streamtape.*##+js(abort-on-property-write, _pop)
+streamtape.*##+js(window.open-defuser)
+! vidstream rightclick menu fix
+vidstream.pro##+js(aopr, HTMLElement.prototype.oncontextmenu)
+! streamtape rightclick menu fix
+streamtape.*##+js(addEventListener-defuser.js, contextmenu)
+! cnet Fix
+@@||cnet2.cbsistatic.com/img^$domain=cnet.com
+! twitter sidebar cleanup
+twitter.com##*[aria-label="Timeline: Trending now"]
+twitter.com##*[aria-label="Who to follow"]
+twitter.com##*[aria-label="Timeline: "]
+! grabify tracker block
+||lovebird.guru^
+||trulove.guru^
+||dateing.club^
+||otherhalf.life^
+||shrekis.life^
+||headshot.monster^
+||gaming-at-my.best^
+||progaming.monster^
+||yourmy.monster^
+||screenshare.host^
+||imageshare.best^
+||screenshot.best^
+||gamingfun.me^
+||catsnthing.com^
+||mypic.icu^
+||catsnthings.fun^
+||curiouscat.club^
+||joinmy.site^
+||fortnitechat.site^
+||fortnight.space^
+||freegiftcards.co^
+||stopify.co^
+||leancoding.co^
+||grabify.link^
+! sciencing popup video blocker
+sciencing.com##*[data-ad-unit-name="sticky-video-player"]
+nypost.com###sidebar-primary
+nypost.com##.more-on__wrapper
+nypost.com###more-on
+www.britannica.com##.marketing-RIGHT_RAIL_MODULE
+www.britannica.com##.video-ad-container
+www.britannica.com##.marketing-INLINE_SUBSCRIPTION
+www.webmd.com##.main-container-3
+www.webmd.com###lln-toppks
+www.webmd.com##.module-f-hs
+www.webmd.com##.module-f-idc
+www.wikihow.com##.ad_free_steps
+www.wikihow.com##.wh_ad_active
+www.wikihow.com###promopair_container
+www.howtogeek.com###v2campaignmidpage
+stackoverflow.com##.js-consent-banner
+admin.yandex.ru##.U9qDS-Pgedz9xh7S1xChS
+mail.yandex.ru##.ns-view-mail-pro-left-column-button
+byjus.com##.ask-ques-mobile-bottom-button
+www.eff.org##.newsletter-form

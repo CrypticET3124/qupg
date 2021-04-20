@@ -88,7 +88,7 @@ www.wikihow.com##.ad_free_steps
 www.wikihow.com##.wh_ad_active
 www.wikihow.com###promopair_container
 www.howtogeek.com###v2campaignmidpage
-stackoverflow.com##.js-consent-banner
+stackoverflow.com,superuser.com##.js-consent-banner
 admin.yandex.ru##.U9qDS-Pgedz9xh7S1xChS
 mail.yandex.ru##.ns-view-mail-pro-left-column-button
 byjus.com##.ask-ques-mobile-bottom-button

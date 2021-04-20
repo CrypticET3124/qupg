@@ -1,0 +1,25 @@
+! Billboard paywall block
+||tinypass.com^$domain=billboard.com
+! IGN anti-adblock block
+||gstatic.com/*/boq-content-ads-contributor^$domain=ign.com
+||fundingchoicesmessages.google.com^$domain=ign.com
+! Recipe save whitelist
+eatingwell.com,allrecipes.com,myrecipes.com#@#[data-tracking-zone="share"]
+eatingwell.com,allrecipes.com,myrecipes.com#@#.two-col-social
+eatingwell.com,allrecipes.com,myrecipes.com#@#.share-new
+eatingwell.com,allrecipes.com,myrecipes.com#@#.docked-sharebar-docking-container
+eatingwell.com,allrecipes.com,myrecipes.com#@#.docked-sharebar
+
+! Filters migrated from 'Right click > Brave > Block element via selector'
+www.webmd.com##div#top-picks-mod-3
+www.webmd.com###ed-urr
+www.webmd.com###ed-rcmmnddforyou
+www.webmd.com##.newsletter-container
+www.webmd.com###ed-urr-2
+www.webmd.com###ed-rcmmnddforyou-2
+www.webmd.com###ed-urr-3
+www.webmd.com###ed-rcmmnddforyou-3
+www.webmd.com##.module-f-hs
+www.webmd.com##.module-f-idc
+www.zdnet.com##section#content-recommendation.leadgenads
+www.zdnet.com###uid-1957366834 > .module

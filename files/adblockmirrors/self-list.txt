@@ -9,7 +9,6 @@ eatingwell.com,allrecipes.com,myrecipes.com#@#.two-col-social
 eatingwell.com,allrecipes.com,myrecipes.com#@#.share-new
 eatingwell.com,allrecipes.com,myrecipes.com#@#.docked-sharebar-docking-container
 eatingwell.com,allrecipes.com,myrecipes.com#@#.docked-sharebar
-! Filters migrated from 'Right click > Brave > Block element via selector'
 www.webmd.com##div#top-picks-mod-3
 www.webmd.com###ed-urr
 www.webmd.com###ed-rcmmnddforyou

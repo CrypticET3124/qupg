@@ -11,6 +11,6 @@ test
 
 aaaaaa
 
-[test](https://qupg.tk/site/content/)
+[test](/site/content/)
 
-[about](https://qupg.tk/about/)
+[about](/about/)

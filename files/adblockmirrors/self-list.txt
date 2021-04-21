@@ -1,5 +1,5 @@
-! remove billboard paywall
-||tinypass.com^$domain=billboard.com
+! remove tinypass paywall
+||tinypass.com^$domain=billboard.com|businessinsider.com
 ! ign anti-adblock block
 ||gstatic.com/*/boq-content-ads-contributor^$domain=ign.com
 ||fundingchoicesmessages.google.com^$domain=ign.com
@@ -93,3 +93,5 @@ admin.yandex.ru##.U9qDS-Pgedz9xh7S1xChS
 mail.yandex.ru##.ns-view-mail-pro-left-column-button
 byjus.com##.ask-ques-mobile-bottom-button
 www.eff.org##.newsletter-form
+www.bbc.co.uk##.promo-panel
+www.examcompass.com##.voucher-link

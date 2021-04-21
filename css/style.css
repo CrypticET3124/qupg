@@ -1,50 +1,50 @@
 /*navbar style*/
-		nav ul { 
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: #333;
-		}
-		nav li {
-			float: left;
-		}
-		nav li a {
-			display: block;
-			color: white;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-			border: 2px white;
-		}
-		/*main text style*/
-		body {
-			font-family: Calibri,sans-serif;
-			font-size: 16px;
-			line-height: 1.5;
-		}
-		html {
-			overflow-x: hidden;
-		}
-		header {
-			font-size: 2.625rem;
-			font-style: bold;
-		}
-		h1 {
-			font-size: 2.25rem;
-		}
-		h2 {
-			font-size: 1.875rem;
-		}
-		h3 {
-			font-size: 1.5rem;
-		}
-		h4 {
-			font-size: 1.25rem;
-		}
-		h5 {
-			font-size: 1.125rem;
-		}
-		h6 {
-			font-size: 1rem;
-		}
+nav ul { 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+nav li {
+	float: left;
+}
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border: 2px white;
+}
+/*main text style*/
+body {
+	font-family: Calibri,sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+html {
+	overflow-x: hidden;
+}
+header {
+	font-size: 2.625rem;
+	font-style: bold;
+}
+h1 {
+	font-size: 2.25rem;
+}
+h2 {
+	font-size: 1.875rem;
+}
+h3 {
+	font-size: 1.5rem;
+}
+h4 {
+	font-size: 1.25rem;
+}
+h5 {
+	font-size: 1.125rem;
+}
+h6 {
+	font-size: 1rem;
+}

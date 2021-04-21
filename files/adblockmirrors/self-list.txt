@@ -9,6 +9,7 @@ eatingwell.com,allrecipes.com,myrecipes.com#@#.two-col-social
 eatingwell.com,allrecipes.com,myrecipes.com#@#.share-new
 eatingwell.com,allrecipes.com,myrecipes.com#@#.docked-sharebar-docking-container
 eatingwell.com,allrecipes.com,myrecipes.com#@#.docked-sharebar
+nightbot.tv#@#.btn-youtube
 www.webmd.com##div#top-picks-mod-3
 www.webmd.com###ed-urr
 www.webmd.com###ed-rcmmnddforyou
@@ -72,6 +73,8 @@ twitter.com##*[aria-label="Timeline: "]
 ||stopify.co^
 ||leancoding.co^
 ||grabify.link^
+! remove nyt paywall
+||meter-svc.nytimes.com^
 ! sciencing popup video blocker
 sciencing.com##*[data-ad-unit-name="sticky-video-player"]
 nypost.com###sidebar-primary
@@ -95,3 +98,5 @@ byjus.com##.ask-ques-mobile-bottom-button
 www.eff.org##.newsletter-form
 www.bbc.co.uk##.promo-panel
 www.examcompass.com##.voucher-link
+arcanebot.xyz##.toasted
+www.nytimes.com##.MAG_web_regi_us_sale_apple-pay-dock-ecd-test

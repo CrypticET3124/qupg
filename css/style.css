@@ -1,4 +1,4 @@
-/*navbar style*/
+/*navbar*/
 nav ul { 
 	list-style-type: none;
 	margin: 0;
@@ -58,14 +58,15 @@ body, html {
 	margin: 0;
 	outline: 0;
 	padding: 0;
+	height: 100%;
 }
 html {
 	overflow-x: hidden;
 }
 main {
 	padding: 2em;
-	min-height: calc(100vh - 140px);
 }
+/*text formatting*/
 header {
 	font-size: 2.625rem;
 	font-style: bold;
@@ -87,6 +88,14 @@ h5 {
 }
 h6 {
 	font-size: 1rem;
+}
+/*footer position*/
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+footer, .push {
+  height: 50px;
 }
 /*footer style*/
 footer { 

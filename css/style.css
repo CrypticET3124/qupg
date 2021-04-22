@@ -91,7 +91,8 @@ h6 {
 /*footer style*/
 footer { 
 	margin: 0;
-	padding: 0;
+	padding-left: .5em;
+	padding-right: .5em;
 	overflow: hidden;
 	background-color: rgb(50, 50, 50);
 	color: rgb(255, 255, 255);

@@ -100,3 +100,8 @@ www.bbc.co.uk##.promo-panel
 www.examcompass.com##.voucher-link
 arcanebot.xyz##.toasted
 www.nytimes.com##.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
+jsfiddle.net###s-bottom
+osuskins.net##.vad-container
+www.androidauthority.com##.dgit-daily-form-green-wrap
+arstechnica.com##.ad_crown
+www.mockplus.com##.external-link

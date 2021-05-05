@@ -109,4 +109,7 @@ www.mockplus.com##.external-link
 gizmodo.com##.js_newsletter-form-inline
 files.minecraftforge.net##.promo-container
 www.varonis.com##.cta-block
+! business insider filters
 www.businessinsider.com##.inline-newsletter-signup
+www.businessinsider.com##.post-content-more
+www.businessinsider.com###l-rightrail

@@ -42,12 +42,13 @@ streamtape.*##+js(window.open-defuser)
 vidstream.pro##+js(aopr, HTMLElement.prototype.oncontextmenu)
 ! streamtape rightclick menu fix
 streamtape.*##+js(addEventListener-defuser.js, contextmenu)
-! cnet Fix
+! cnet fix
 @@||cnet2.cbsistatic.com/img^$domain=cnet.com
-! twitter sidebar cleanup
-twitter.com##*[aria-label="Timeline: Trending now"]
-twitter.com##*[aria-label="Who to follow"]
-twitter.com##*[aria-label="Timeline: "]
+! twitter fiters
+twitter.com##.r-vacyoi > .r-kemksi.r-1kqtdi0
+twitter.com##.r-1ysxnx4
+twitter.com##nav[aria-label="Footer"] > div.css-901oao.r-hrzydr
+twitter.com##nav[aria-label="Footer"] > a[href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html"]
 ! grabify tracker block
 ||lovebird.guru^
 ||trulove.guru^
@@ -105,3 +106,6 @@ osuskins.net##.vad-container
 www.androidauthority.com##.dgit-daily-form-green-wrap
 arstechnica.com##.ad_crown
 www.mockplus.com##.external-link
+gizmodo.com##.js_newsletter-form-inline
+files.minecraftforge.net##.promo-container
+www.varonis.com##.cta-block

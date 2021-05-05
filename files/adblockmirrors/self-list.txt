@@ -42,7 +42,7 @@ streamtape.*##+js(window.open-defuser)
 vidstream.pro##+js(aopr, HTMLElement.prototype.oncontextmenu)
 ! streamtape rightclick menu fix
 streamtape.*##+js(addEventListener-defuser.js, contextmenu)
-! cnet fix
+! cnet Fix
 @@||cnet2.cbsistatic.com/img^$domain=cnet.com
 ! twitter fiters
 twitter.com##.r-vacyoi > .r-kemksi.r-1kqtdi0
@@ -109,3 +109,4 @@ www.mockplus.com##.external-link
 gizmodo.com##.js_newsletter-form-inline
 files.minecraftforge.net##.promo-container
 www.varonis.com##.cta-block
+www.businessinsider.com##.inline-newsletter-signup

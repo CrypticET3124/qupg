@@ -113,3 +113,4 @@ www.varonis.com##.cta-block
 www.businessinsider.com##.inline-newsletter-signup
 www.businessinsider.com##.post-content-more
 www.businessinsider.com###l-rightrail
+www.businessinsider.com##.bi-prime-icon

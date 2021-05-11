@@ -1,0 +1,67 @@
+/*hide gift button*/
+.buttons-3JBrkn > .button-38aScr > :not(.translateButton-DhP9x8)
+{display: none;}
+/*stream preview blocker*/
+.pictureInPictureVideo-2iKsGg {
+    display: none;
+}
+/*offline blocker*/
+.container-16j22k {background: transparent; pointer-events: none}
+.container-16j22k>div {display: none}
+.container-16j22k::before {
+    content: "You've gone offline";
+    display: block;
+    bottom: 24px; right: 24px;
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #f04747;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500
+}
+/*red ping badge*/
+.numberBadge-2s8kKX {background-color: rgb(255, 0, 0) !important}
+/*discovery icon blocker*/
+.tutorialContainer-30WoTp+div {display:none}
+/*change home icon*/
+.homeIcon-FuNwkv path {fill: transparent}
+.homeIcon-FuNwkv {
+    background: url('https://fonts.gstatic.com/s/i/materialicons/home/v11/24px.svg') center/contain no-repeat;
+    min-width: 35px;
+    min-height: 35px;
+}
+/*discord message link shortener*/
+[href^="https://discord.com/channels/"] {
+    line-height:0;
+    font-size:0;
+}
+[href^="https://discord.com/channels/"]::before {
+    content:'Jump to Message';
+    font-size:16px;
+    font-weight:700;
+}
+/*title blocker*/
+.wordmarkWindows-1v0lYD {
+  display: none;
+}
+/*invite to server blocker*/
+#user-context-invite-to-server {
+  display: none;
+}
+/*nitro dm blocker*/
+#private-channels a[href="/store"] {
+    display: none;
+}
+/*help icon blocker*/
+.toolbar-1t6TWx a {
+  display: none;
+}
+/*settings space expander*/
+.sidebarRegion-VFTUkN,
+.sidebarRegionScroller-3MXcoP {
+    flex: 0 0 auto;
+}
+
+.contentColumnDefault-1VQkGM {
+    max-width: unset;
+}

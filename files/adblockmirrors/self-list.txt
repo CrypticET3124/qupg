@@ -116,4 +116,3 @@ webmd.com###lln-toppks
 webmd.com##.module-f-hs
 webmd.com##.module-f-idc
 webmd.com###top-picks-mod-2
-webmd.com#@#.ad-wrapper

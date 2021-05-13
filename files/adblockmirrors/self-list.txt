@@ -114,3 +114,4 @@ businessinsider.com##.inline-newsletter-signup
 businessinsider.com##.post-content-more
 businessinsider.com###l-rightrail
 businessinsider.com##.bi-prime-icon
+webmd.com###top-picks-mod-2

@@ -10,16 +10,6 @@ eatingwell.com,allrecipes.com,myrecipes.com#@#.share-new
 eatingwell.com,allrecipes.com,myrecipes.com#@#.docked-sharebar-docking-container
 eatingwell.com,allrecipes.com,myrecipes.com#@#.docked-sharebar
 nightbot.tv#@#.btn-youtube
-webmd.com##div#top-picks-mod-3
-webmd.com###ed-urr
-webmd.com###ed-rcmmnddforyou
-webmd.com##.newsletter-container
-webmd.com###ed-urr-2
-webmd.com###ed-rcmmnddforyou-2
-webmd.com###ed-urr-3
-webmd.com###ed-rcmmnddforyou-3
-webmd.com##.module-f-hs
-webmd.com##.module-f-idc
 zdnet.com##section#content-recommendation.leadgenads
 zdnet.com###uid-1957366834 > .module
 ! remove mp4upload ads
@@ -84,10 +74,6 @@ nypost.com###more-on
 britannica.com##.marketing-RIGHT_RAIL_MODULE
 britannica.com##.video-ad-container
 britannica.com##.marketing-INLINE_SUBSCRIPTION
-webmd.com##.main-container-3
-webmd.com###lln-toppks
-webmd.com##.module-f-hs
-webmd.com##.module-f-idc
 wikihow.com##.ad_free_steps
 wikihow.com##.wh_ad_active
 wikihow.com###promopair_container
@@ -114,4 +100,20 @@ businessinsider.com##.inline-newsletter-signup
 businessinsider.com##.post-content-more
 businessinsider.com###l-rightrail
 businessinsider.com##.bi-prime-icon
+! webmd filters
+webmd.com##div#top-picks-mod-3
+webmd.com###ed-urr
+webmd.com###ed-rcmmnddforyou
+webmd.com##.newsletter-container
+webmd.com###ed-urr-2
+webmd.com###ed-rcmmnddforyou-2
+webmd.com###ed-urr-3
+webmd.com###ed-rcmmnddforyou-3
+webmd.com##.module-f-hs
+webmd.com##.module-f-idc
+webmd.com##.main-container-3
+webmd.com###lln-toppks
+webmd.com##.module-f-hs
+webmd.com##.module-f-idc
 webmd.com###top-picks-mod-2
+webmd.com#@#.ad-wrapper

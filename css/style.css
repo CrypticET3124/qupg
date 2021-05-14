@@ -127,11 +127,11 @@ section#changelog > ul > li > ul > li#public {
 	list-style-image: url("/files/icons/public24px.svg");
 }
 section#changelog > ul > li > ul > li#public > ul > li {
-	list-style-image: none;
+	list-style-image: url("/files/icons/subdirectory_arrow_right24px.svg");
 }
 section#changelog > ul > li > ul > li#person {
 	list-style-image: url("/files/icons/person24px.svg");
 }
 section#changelog > ul > li > ul > li#person > ul > li {
-	list-style-image: none;
+	list-style-image: url("/files/icons/subdirectory_arrow_right24px.svg");
 }

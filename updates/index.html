@@ -5,6 +5,25 @@
     <head>
         {% include header.html title="Updates" %}
         <style>
+            /*changelog formatting*/
+            section#changelog > ul > li {
+                list-style-image: url("/files/icons/event24px.svg");
+            }
+            section#changelog > ul > li > ul > li {
+                list-style-image: url("/files/icons/public24px.svg");
+            }
+            section#changelog > ul > li > ul > li#public {
+                list-style-image: url("/files/icons/public24px.svg");
+            }
+            section#changelog > ul > li > ul > li#public > ul > li {
+                list-style-image: url("/files/icons/subdirectory_arrow_right24px.svg");
+            }
+            section#changelog > ul > li > ul > li#person {
+                list-style-image: url("/files/icons/person24px.svg");
+            }
+            section#changelog > ul > li > ul > li#person > ul > li {
+                list-style-image: url("/files/icons/subdirectory_arrow_right24px.svg");
+            }
         </style>
     </head>
 
@@ -33,6 +52,7 @@
                                 <li id="public">Siteside
                                     <ul>
                                         <li>Added icons to this changelog. Alignment is a little off, but I can't figure out how to fix that quite yet</li>
+                                        <li>Added Jekyll include abbreviations for sitewide footer</li>
                                     </ul>
                                 </li>
                                 <li id="person">Local
@@ -74,8 +94,6 @@
             </main>
         </div>
 
-        <footer>
-            &copy; me I think
-        </footer>
+        {% include footer.html %}
     </body>
 </html>

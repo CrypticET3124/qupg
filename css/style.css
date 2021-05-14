@@ -116,3 +116,22 @@ footer {
 	background-color: rgb(50, 50, 50);
 	color: rgb(255, 255, 255);
 }
+/*changelog formatting*/
+section#changelog > ul > li {
+	list-style-image: url("/files/icons/event24px.svg");
+}
+section#changelog > ul > li > ul > li {
+	list-style-image: none;
+}
+section#changelog > ul > li > ul > li#public {
+	list-style-image: url("/files/icons/public24px.svg");
+}
+section#changelog > ul > li > ul > li#public > ul > li {
+	list-style-image: none;
+}
+section#changelog > ul > li > ul > li#person {
+	list-style-image: url("/files/icons/person24px.svg");
+}
+section#changelog > ul > li > ul > li#person > ul > li {
+	list-style-image: none;
+}

@@ -1,16 +1,4 @@
 # QuickUpGames
-test
+This is just a little project I'm doing for fun.
 
-#testing
-
-# testtt
-
-*acc*
-
-**accuracy**
-
-aaaaaa
-
-[test](https://qupg.tk/site/content/)
-
-[about](https://qupg.tk/about/)
+See what it's [about](https://qupg.tk/about/)

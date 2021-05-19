@@ -1,3 +1,19 @@
+/*main text style*/
+body, html {
+	font-family: Calibri,sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	height: 100%;
+}
+html {
+	overflow-x: hidden;
+}
+main {
+	padding: 2em;
+}
 /*navbar*/
 nav ul { 
 	list-style-type: none;
@@ -53,22 +69,6 @@ nav .dropdown-content a:hover {
 nav .dropdown:hover .dropdown-content {
 	display: block;
 }
-/*main text style*/
-body, html {
-	font-family: Calibri,sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	margin: 0;
-	outline: 0;
-	padding: 0;
-	height: 100%;
-}
-html {
-	overflow-x: hidden;
-}
-main {
-	padding: 2em;
-}
 /*text formatting*/
 header {
 	font-size: 2.625rem;
@@ -115,4 +115,15 @@ footer {
 	overflow: hidden;
 	background-color: rgb(50, 50, 50);
 	color: rgb(255, 255, 255);
+}
+/*external link icon*/
+a[target="_blank"]:not(.no-ex-link)::after {
+  content: "";
+  width: 1em;
+  height: 1em;
+  margin: 0 0.05em 0 0.1em;
+  background: url(/files/icons/open_in_new24px.svg);
+  background-size: contain;
+  display: inline-block;
+  vertical-align: text-bottom;
 }

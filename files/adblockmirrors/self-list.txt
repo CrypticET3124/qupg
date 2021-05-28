@@ -35,10 +35,11 @@ streamtape.*##+js(addEventListener-defuser.js, contextmenu)
 ! cnet Fix
 @@||cnet2.cbsistatic.com/img^$domain=cnet.com
 ! twitter fiters
-twitter.com##.r-vacyoi > .r-kemksi.r-1kqtdi0
-twitter.com##.r-1ysxnx4
-twitter.com##nav[aria-label="Footer"] > div.css-901oao.r-hrzydr
-twitter.com##nav[aria-label="Footer"] > a[href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html"]
+twitter.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-1kqtdi0.r-kemksi.css-1dbjc4n
+twitter.com##.r-1udh08x.r-1bro5k0.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-k0dy70.r-1ysxnx4.css-1dbjc4n
+twitter.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-k0dy70.r-1ysxnx4.css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n
+twitter.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-k0dy70.r-1ysxnx4.css-1dbjc4n
+a[href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html"]
 ! grabify tracker block
 ||lovebird.guru^
 ||trulove.guru^
@@ -116,3 +117,4 @@ webmd.com###lln-toppks
 webmd.com##.module-f-hs
 webmd.com##.module-f-idc
 webmd.com###top-picks-mod-2
+sciencing.com##.article-right-col-container

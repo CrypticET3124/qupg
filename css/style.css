@@ -70,12 +70,9 @@ nav .dropdown:hover .dropdown-content {
 	display: block;
 }
 /*text formatting*/
-header {
-	font-size: 2.625rem;
-	font-style: bold;
-}
 h1 {
 	font-size: 2.25rem;
+	font-style: bold;
 }
 h2 {
 	font-size: 1.875rem;

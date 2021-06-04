@@ -118,3 +118,5 @@ webmd.com##.module-f-hs
 webmd.com##.module-f-idc
 webmd.com###top-picks-mod-2
 sciencing.com##.article-right-col-container
+materialdesignicons.com##a[href^="https://getdpd.com/"]
+materialdesignicons.com##a[href^="https://creativemarket.com/"]

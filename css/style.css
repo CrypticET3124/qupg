@@ -29,7 +29,7 @@ nav li {
 nav li:first-child.logo {
 	height: 3rem;
 }
-nav li:last-child.right {
+nav li.right {
 	border-right: none;
 	float: right;
 	border-left: 1px solid rgb(187, 187, 187);

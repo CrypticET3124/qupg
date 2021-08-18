@@ -9,7 +9,8 @@ title: Updates
             /*changelog formatting*/
             section#changelog > ul {
                 border-top: 1px solid slategray;
-                padding-top: 1rem;
+                padding: 1rem 0 0 1rem;
+                margin-top: 0;
                 font-weight: bold;
             }
             section#changelog > ul:last-child {
@@ -20,17 +21,29 @@ title: Updates
                 padding-left: 2rem;
                 font-weight: normal;
             }
-            section#changelog > ul > li {
-                list-style-image: url("/files/images/icons/event24px.svg");
+            section#changelog li {
+                list-style: none;
             }
-            section#changelog :is(li.public, li.person) li {
-                list-style-image: url("/files/images/icons/subdirectory_arrow_right24px.svg");
+            section li::before {
+                content: "";
+                width: 1.5em;
+                height: 1.5em;
+                margin: 0 .5em 0 0;
+                background-size: contain;
+				display: inline-block;
+				vertical-align: text-bottom;
             }
-            section#changelog li.public {
-                list-style-image: url("/files/images/icons/language24px.svg");
+            section#changelog > ul > li::before {
+				background: url(/files/images/icons/event24px.svg);
+			}
+            section#changelog :is(li.public, li.person) li::before {
+				background: url(/files/images/icons/subdirectory_arrow_right24px.svg);
             }
-            section#changelog li.person {
-                list-style-image: url("/files/images/icons/person24px.svg");
+            section#changelog li.public::before {
+				background: url(/files/images/icons/language24px.svg);
+            }
+            section#changelog li.person::before {
+				background: url(/files/images/icons/person24px.svg);
             }
         </style>
     </head>
@@ -56,6 +69,19 @@ title: Updates
                 </section>
 
                 <section id="changelog">
+                    <ul>
+                        <li>2021/8/17
+                            <ul>
+                                <li class="person">Local
+                                    <ul>
+                                        <li>I've finally gotten to my new house with some of the computers set up. The one I'm using for development is working, so I'll be able to get programming again.</li>
+                                        <li>Installed a couple of extensions (VisBug and Amino) to help quicken my css development.</li>
+                                        <li>Aligned "bullet points" on this page much better than previously.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                     <ul>
                         <li>2021/6/23
                             <ul>

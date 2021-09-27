@@ -131,5 +131,4 @@ foxnews.com##.promo.promo-image.js-promo
 foxnews.com##[src*="https://static.foxnews.com/static/orion/html/embed/vaccine-finder.html"]
 foxnews.com##.component-iframed.covid-19-vaccine-distribution
 foxnews.com##.collection.collection-hero-article.credible-hero
-foxnews.com##.sticky-video
 genius.com###featured-stories

@@ -82,7 +82,6 @@ howtogeek.com###v2campaignmidpage
 stackoverflow.com,stackexchange.com,superuser.com##.js-consent-banner
 admin.yandex.ru##.U9qDS-Pgedz9xh7S1xChS
 mail.yandex.ru##.ns-view-mail-pro-left-column-button
-byjus.com##.ask-ques-mobile-bottom-button
 eff.org##.newsletter-form
 bbc.co.uk##.promo-panel
 examcompass.com##.voucher-link

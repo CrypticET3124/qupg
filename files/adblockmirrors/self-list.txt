@@ -1,3 +1,10 @@
+[Adblock Plus 2.0]
+! Version: 2021102001
+! Title: CrypticET3124's List
+! Last modified: 2021 Oct 20 03:16 UTC
+! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+! 
+! -----------------------Will Sort Later-----------------------
 ! remove tinypass paywall
 ||tinypass.com^$domain=billboard.com|businessinsider.com
 ! ign anti-adblock block

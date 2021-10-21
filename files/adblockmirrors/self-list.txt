@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 2021102001
+! Version: 2021102002
 ! Title: CrypticET3124's List
-! Last modified: 2021 Oct 20 03:16 UTC
+! Last modified: 2021 Oct 20 03:18 UTC
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! 
 ! -----------------------Will Sort Later-----------------------
@@ -138,3 +138,4 @@ foxnews.com##[src*="https://static.foxnews.com/static/orion/html/embed/vaccine-f
 foxnews.com##.component-iframed.covid-19-vaccine-distribution
 foxnews.com##.collection.collection-hero-article.credible-hero
 genius.com###featured-stories
+www.salon.com##div.outer-ad-unit-wrapper

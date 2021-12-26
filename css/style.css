@@ -13,7 +13,6 @@ html {
 }
 main {
 	padding: 2rem;
-	padding-bottom: 3.5rem;
 }
 /*navbar*/
 nav ul { 
@@ -101,8 +100,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 /*footer position*/
 .wrapper {
-	min-height: 100%;
-	margin-bottom: -3.125rem;
+	min-height: calc(100% - 3.125rem);
 }
 footer, .push {
 	height: 3.125rem;

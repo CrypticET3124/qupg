@@ -47,6 +47,7 @@ twitter.com##.r-1udh08x.r-1bro5k0.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-k0dy7
 twitter.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-k0dy70.r-1ysxnx4.css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n
 twitter.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-k0dy70.r-1ysxnx4.css-1dbjc4n
 twitter.com##a[href*="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html"]
+platform.twitter.com##.sc-1o6mqs2-0.jRAIxB
 ! grabify tracker block
 ||lovebird.guru^
 ||trulove.guru^
@@ -139,3 +140,6 @@ foxnews.com##.component-iframed.covid-19-vaccine-distribution
 foxnews.com##.collection.collection-hero-article.credible-hero
 genius.com###featured-stories
 www.salon.com##div.outer-ad-unit-wrapper
+quizlet.com##.SetPageTerms-embeddedDesktopAdz
+marketrealist.com##.sc-1o6mqs2-0.jRAIxB
+www.thearchive.gg##.ad-alt

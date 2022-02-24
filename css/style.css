@@ -43,6 +43,7 @@ nav li.right {
 }
 nav li a, .dropbtn {
 	display: inline-block;
+	color: white;
 	text-align: center;
 	padding: .75rem 1rem;
 	text-decoration: none;

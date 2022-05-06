@@ -41,7 +41,7 @@ nav li {
 	border-right: 1px solid rgb(187, 187, 187);
 }
 
-#navTitle {
+nav #navTitle {
 	float: left;
 	border: none;
 }
@@ -53,7 +53,7 @@ nav li.right {
 }
 
 nav li a,
-.dropbtn {
+nav .dropbtn {
 	display: inline-block;
 	color: white;
 	text-align: center;
@@ -71,7 +71,7 @@ nav li#navTitle div {
 }
 
 nav li a:hover,
-.dropdown:hover .dropbtn {
+nav .dropdown:hover .dropbtn {
 	background-color: var(--main-color-dark);
 }
 
@@ -104,7 +104,7 @@ nav .dropdown:hover .dropdown-content {
 	display: block;
 }
 
-.logonav {
+nav .logonav {
 	max-height: 3rem;
 	padding-right: 1rem;
 	padding-left: 1rem;
@@ -185,4 +185,9 @@ a[target="_blank"]:not(.no-ex-link)::after {
 	background-size: contain;
 	display: inline-block;
 	vertical-align: text-bottom;
+}
+
+main a,
+footer a {
+	color: #8328d7;
 }

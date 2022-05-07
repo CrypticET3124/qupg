@@ -105,10 +105,14 @@ nav .dropdown:hover .dropdown-content {
 }
 
 nav .logonav {
-	max-height: 3rem;
-	padding-right: 1rem;
-	padding-left: 1rem;
+	padding: .5rem 1rem;
+	height: 2rem;
 	overflow: hidden;
+	vertical-align: middle;
+}
+
+.whiteLogo {
+	filter: invert(99%) sepia(99%) saturate(2%) hue-rotate(193deg) brightness(109%) contrast(100%);
 }
 
 /*text formatting*/

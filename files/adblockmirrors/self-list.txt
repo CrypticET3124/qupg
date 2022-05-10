@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 2021102002
+! Version: 2021102003
 ! Title: CrypticET3124's List
-! Last modified: 2021 Oct 20 03:18 UTC
+! Last modified: 2022 May 10 5:21 UTC
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ! 
 ! -----------------------Will Sort Later-----------------------
@@ -143,3 +143,13 @@ www.salon.com##div.outer-ad-unit-wrapper
 quizlet.com##.SetPageTerms-embeddedDesktopAdz
 marketrealist.com##.sc-1o6mqs2-0.jRAIxB
 www.thearchive.gg##.ad-alt
+devhints.io##.pubbox
+unsplash.com##.vNWg5
+scoresaber.com##.adsbygoogle
+www.fosshub.com##.ad
+www.apkmirror.com##.advertisement-text
+js.stripe.com##.advertisement-text
+m.stripe.network##.advertisement-text
+apkmirror.memberful.com##.advertisement-text
+yougov.co.uk##.vwo-overlay
+datawrapper.dwcdn.net##.vwo-overlay

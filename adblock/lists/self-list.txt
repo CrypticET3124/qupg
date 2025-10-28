@@ -3,24 +3,24 @@
 ! Title: CrypticET3124's List
 ! Last modified: 2022 May 10 5:21 UTC
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
-! 
-! -----------------------Will Sort Later-----------------------
+
 ! remove tinypass paywall
 ||tinypass.com^$domain=billboard.com|businessinsider.com
+
 ! ign anti-adblock block
 ||gstatic.com/*/boq-content-ads-contributor^$domain=ign.com
 ||fundingchoicesmessages.google.com^$domain=ign.com
+
 ! recipe save whitelist
 eatingwell.com,allrecipes.com,myrecipes.com#@#[data-tracking-zone="share"]
 eatingwell.com,allrecipes.com,myrecipes.com#@#.two-col-social
 eatingwell.com,allrecipes.com,myrecipes.com#@#.share-new
 eatingwell.com,allrecipes.com,myrecipes.com#@#.docked-sharebar-docking-container
 eatingwell.com,allrecipes.com,myrecipes.com#@#.docked-sharebar
-nightbot.tv#@#.btn-youtube
-zdnet.com##section#content-recommendation.leadgenads
-zdnet.com###uid-1957366834 > .module
+
 ! remove mp4upload ads
 ||gibeleftyeuro.com^
+
 ! remove streamtape ads
 ||adsco.re^
 ||achaithe.com^
@@ -35,12 +35,16 @@ streamtape.*##+js(abort-current-inline-script, document.createElement, 'script')
 streamtape.*##+js(abort-current-inline-script, Math, XMLHttpRequest)
 streamtape.*##+js(abort-on-property-write, _pop)
 streamtape.*##+js(window.open-defuser)
+
 ! vidstream rightclick menu fix
 vidstream.pro##+js(aopr, HTMLElement.prototype.oncontextmenu)
+
 ! streamtape rightclick menu fix
 streamtape.*##+js(addEventListener-defuser.js, contextmenu)
+
 ! cnet Fix
 @@||cnet2.cbsistatic.com/img^$domain=cnet.com
+
 ! twitter fiters
 twitter.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-1kqtdi0.r-kemksi.css-1dbjc4n
 twitter.com##.r-1udh08x.r-1bro5k0.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-k0dy70.r-1ysxnx4.css-1dbjc4n
@@ -48,6 +52,7 @@ twitter.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-k0dy70.r-1ys
 twitter.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-k0dy70.r-1ysxnx4.css-1dbjc4n
 twitter.com##a[href*="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html"]
 platform.twitter.com##.sc-1o6mqs2-0.jRAIxB
+
 ! grabify tracker block
 ||lovebird.guru^
 ||trulove.guru^
@@ -73,41 +78,13 @@ platform.twitter.com##.sc-1o6mqs2-0.jRAIxB
 ||stopify.co^
 ||leancoding.co^
 ||grabify.link^
-! remove nyt paywall
-||meter-svc.nytimes.com^
-! sciencing popup video blocker
-sciencing.com##*[data-ad-unit-name="sticky-video-player"]
-nypost.com###sidebar-primary
-nypost.com##.more-on__wrapper
-nypost.com###more-on
-britannica.com##.marketing-RIGHT_RAIL_MODULE
-britannica.com##.video-ad-container
-britannica.com##.marketing-INLINE_SUBSCRIPTION
-wikihow.com##.ad_free_steps
-wikihow.com##.wh_ad_active
-wikihow.com###promopair_container
-howtogeek.com###v2campaignmidpage
-stackoverflow.com,stackexchange.com,superuser.com##.js-consent-banner
-admin.yandex.ru##.U9qDS-Pgedz9xh7S1xChS
-mail.yandex.ru##.ns-view-mail-pro-left-column-button
-eff.org##.newsletter-form
-bbc.co.uk##.promo-panel
-examcompass.com##.voucher-link
-arcanebot.xyz##.toasted
-nytimes.com##.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
-jsfiddle.net###s-bottom
-osuskins.net##.vad-container
-androidauthority.com##.dgit-daily-form-green-wrap
-arstechnica.com##.ad_crown
-mockplus.com##.external-link
-gizmodo.com##.js_newsletter-form-inline
-files.minecraftforge.net##.promo-container
-varonis.com##.cta-block
+
 ! business insider filters
 businessinsider.com##.inline-newsletter-signup
 businessinsider.com##.post-content-more
 businessinsider.com###l-rightrail
 businessinsider.com##.bi-prime-icon
+
 ! webmd filters
 webmd.com##div#top-picks-mod-3
 webmd.com###ed-urr
@@ -124,20 +101,41 @@ webmd.com###lln-toppks
 webmd.com##.module-f-hs
 webmd.com##.module-f-idc
 webmd.com###top-picks-mod-2
-sciencing.com##.article-right-col-container
-materialdesignicons.com##a[href^="https://getdpd.com/"]
-materialdesignicons.com##a[href^="https://creativemarket.com/"]
-! washington post paywall block
-||washingtonpost.com/subscribe/paywall^
-gizmodo.com##.ynugv2-2.fpPzXA
-openculture.com##.oc-center-da
-udemy.com##.top-companies-notice--background-container--TV-5_
-! foxnews simplifyer
+
+! news networks
 foxnews.com##.collection.collection-clips.has-load-more.collection-multi.js-exclusive-clips
 foxnews.com##.promo.promo-image.js-promo
 foxnews.com##[src*="https://static.foxnews.com/static/orion/html/embed/vaccine-finder.html"]
 foxnews.com##.component-iframed.covid-19-vaccine-distribution
 foxnews.com##.collection.collection-hero-article.credible-hero
+foxnews.com##.recommended-videos.isSticky
+nytimes.com##.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
+nypost.com###sidebar-primary
+nypost.com##.more-on__wrapper
+nypost.com###more-on
+www.nbcnews.com##.article-body__right-rail
+||meter-svc.nytimes.com^
+||washingtonpost.com/subscribe/paywall^
+
+! amazon
+www.amazon.com##.nav-flyout-sidePanel
+www.amazon.com###b2bUpsell_feature_div
+www.amazon.com###primeDPUpsellStaticContainer
+www.amazon.com###nile-inline_feature_div
+www.amazon.com###buyItOnAB_feature_div
+
+! search engines
+www.bing.com##.autos_ads_container
+search.brave.com###search-ad
+
+! gg.deals
+gg.deals##.game-streams-gallery-widget
+gg.deals##.social-widget-box.social-box-feedback
+gg.deals###game-related-news
+gg.deals##.d-flex.flex-justify-center.banner-image-container.with-background
+gg.deals###content-banner-image1
+
+! random
 genius.com###featured-stories
 www.salon.com##div.outer-ad-unit-wrapper
 quizlet.com##.SetPageTerms-embeddedDesktopAdz
@@ -153,3 +151,51 @@ m.stripe.network##.advertisement-text
 apkmirror.memberful.com##.advertisement-text
 yougov.co.uk##.vwo-overlay
 datawrapper.dwcdn.net##.vwo-overlay
+materialdesignicons.com##a[href^="https://getdpd.com/"]
+materialdesignicons.com##a[href^="https://creativemarket.com/"]
+gizmodo.com##.ynugv2-2.fpPzXA
+openculture.com##.oc-center-da
+udemy.com##.top-companies-notice--background-container--TV-5_
+www.justwatch.com##.promoted-buybox
+www.stuller.com###metalsFixedFooter
+pixabay.com###app > div:nth-of-type(1) >  >  > div:nth-of-type(1)
+stackoverflow.com###sidebar
+developer.mozilla.org##.top-banner.visible
+js.org###xad
+steamdb.info##[aria-label="Youtube"]
+steamdb.info##[aria-label="Twitter"]
+steamdb.info##[aria-label="Twitch"]
+developer.mozilla.org##.toc-container > .place.side.new-side
+developer.mozilla.org##mdn-placement-sidebar
+www.imdb.com##.ipc-page-section.ipc-page-section--base.sc-75d0e8cb-0.lecyla
+gemini.google.com##announcement-banner
+gemini.google.com##.disclaimer-container.action.enable-aurora
+haveibeenpwned.com##.action-card.p-4.h-100.border-start.border-4.border-primary.position-relative
+www.imdb.com##[data-test-id=right-rail-content-block]
+britannica.com##.marketing-RIGHT_RAIL_MODULE
+britannica.com##.video-ad-container
+britannica.com##.marketing-INLINE_SUBSCRIPTION
+wikihow.com##.ad_free_steps
+wikihow.com##.wh_ad_active
+wikihow.com###promopair_container
+howtogeek.com###v2campaignmidpage
+stackoverflow.com,stackexchange.com,superuser.com##.js-consent-banner
+admin.yandex.ru##.U9qDS-Pgedz9xh7S1xChS
+mail.yandex.ru##.ns-view-mail-pro-left-column-button
+eff.org##.newsletter-form
+bbc.co.uk##.promo-panel
+examcompass.com##.voucher-link
+arcanebot.xyz##.toasted
+jsfiddle.net###s-bottom
+osuskins.net##.vad-container
+androidauthority.com##.dgit-daily-form-green-wrap
+arstechnica.com##.ad_crown
+mockplus.com##.external-link
+gizmodo.com##.js_newsletter-form-inline
+files.minecraftforge.net##.promo-container
+varonis.com##.cta-block
+sciencing.com##.article-right-col-container
+sciencing.com##*[data-ad-unit-name="sticky-video-player"]
+nightbot.tv#@#.btn-youtube
+zdnet.com##section#content-recommendation.leadgenads
+zdnet.com###uid-1957366834 > .module

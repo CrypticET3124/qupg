@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 2021102003
+! Version: 2025102701
 ! Title: CrypticET3124's List
-! Last modified: 2022 May 10 5:21 UTC
+! Last modified: 2025 Oct 27
 ! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ! remove tinypass paywall
